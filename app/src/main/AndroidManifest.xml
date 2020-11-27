@@ -9,9 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".baseadapter.BaseAdapterActivity"></activity>
-        <activity android:name=".simpleadapter.SimpleAdapterActivity" />
-        <activity android:name=".arrayadapter.ArrayAdapterActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,6 +16,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".arrayadapter.ArrayAdapterActivity"
+            android:label="ArrayAdapter" />
+        <activity
+            android:name=".simpleadapter.SimpleAdapterActivity"
+            android:label="SimplAdapter" />
+        <activity
+            android:name=".baseadapter.BaseAdapterActivity"
+            android:label="BaseAdapter" />
+        <activity
+            android:name=".category.CategoryListViewActivity"
+            android:label="分类型ListView" />
+
     </application>
 
 </manifest>

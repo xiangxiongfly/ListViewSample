@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.myapplication.arrayadapter.ArrayAdapterActivity;
 import com.example.myapplication.baseadapter.BaseAdapterActivity;
+import com.example.myapplication.category.CategoryListViewActivity;
 import com.example.myapplication.simpleadapter.SimpleAdapterActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -28,5 +29,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void clickBaseAdapter(View view) {
         startActivity(new Intent(this, BaseAdapterActivity.class));
+    }
+
+    public void clickCategory(View view) {
+        startActivity(new Intent(this, CategoryListViewActivity.class));
     }
 }
