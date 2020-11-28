@@ -28,7 +28,9 @@
         <activity
             android:name=".category.CategoryListViewActivity"
             android:label="分类型ListView" />
-
+        <activity
+            android:name=".checkbox.CheckBoxListViewActivity"
+            android:label="ListView与CheckBox" />
     </application>
 
 </manifest>

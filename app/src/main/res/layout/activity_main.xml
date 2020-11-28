@@ -31,4 +31,10 @@
         android:onClick="clickCategory"
         android:text="分类型ListView" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickCheckBox"
+        android:text="ListView与CheckBox" />
+
 </LinearLayout>
