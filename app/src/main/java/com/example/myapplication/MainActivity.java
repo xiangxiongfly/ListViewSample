@@ -10,6 +10,7 @@ import com.example.myapplication.arrayadapter.ArrayAdapterActivity;
 import com.example.myapplication.baseadapter.BaseAdapterActivity;
 import com.example.myapplication.category.CategoryListViewActivity;
 import com.example.myapplication.checkbox.CheckBoxListViewActivity;
+import com.example.myapplication.expandable.ExpandableListViewActivity;
 import com.example.myapplication.simpleadapter.SimpleAdapterActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -38,5 +39,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void clickCheckBox(View view) {
         startActivity(new Intent(this, CheckBoxListViewActivity.class));
+    }
+
+    public void clickELV(View view) {
+        startActivity(new Intent(this, ExpandableListViewActivity.class));
     }
 }
